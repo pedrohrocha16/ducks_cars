@@ -15,6 +15,7 @@
    .desc h5 {
       color: gold;
       font-size: 20px;
+      text-shadow: 0px 1px 20px rgb(190, 162, 1);   
    }
    .desc p {
       font-size: 13px;

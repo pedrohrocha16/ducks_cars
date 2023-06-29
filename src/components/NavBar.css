@@ -3,18 +3,18 @@
    font-family: 'Open Sans', sans-serif;
    justify-content: space-between;
 }
-.NavBar span {
+.title_nav {
    align-items: center;
    color: gold;
+   font-size: 28px;
    text-shadow: 1px 2px 1px rgb(190, 162, 1);
    display: flex;
-   font-size: 30px;
    font-weight: 900;
 }
 .NavBar a {
    display: flex;
    color: rgb(223, 223, 223);
-   font-size: 25px;
+   font-size: 20px;
    font-weight: 700;
    margin-top: 1rem;
    margin-bottom: 1rem;
@@ -29,9 +29,15 @@
    width: 75px;
 }
 .NavBar button {
-   color: rgb(229, 255, 0);
-   background-color: rgb(139, 139, 139);
+   background-color: rgb(202, 202, 202);
+   border-radius: 10px;
+   opacity: 0.7;
 }
+.NavBar button:active {
+   opacity: 1;
+}
+
+
 @media (min-width: 992px) {
    .NavBar span {
       font-size: 35px;
