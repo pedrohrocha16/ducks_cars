@@ -3,6 +3,7 @@ import './Carrosel.css'
 import carOne from '../img/car_sld01.jpg'
 import carTwo from '../img/car_sld02.jpg'
 import carThree from '../img/car_sld03.jpg'
+import carFour from '../img/car_sld04.jpg'
 
 function Carrosel() {
   return (
@@ -43,6 +44,19 @@ function Carrosel() {
             <div className="desc">
                <h5>Duck's Car</h5>
                <p>Veículos novos e semi novos!</p>
+            </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="carousel"
+          src={carFour}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+            <div className="desc">
+               <h5>Duck's Car</h5>
+               <p>Conheça nosso estoque!</p>
             </div>
         </Carousel.Caption>
       </Carousel.Item>
