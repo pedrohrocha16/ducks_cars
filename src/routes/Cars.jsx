@@ -1,9 +1,11 @@
+import './Cars.css'
+
 const Cars = () => {
   return (
-    <div>
+    <section>
       <h1>Our Cars</h1>
       <p>Cars...</p>
-    </div>
+    </section>
   )
 }
 

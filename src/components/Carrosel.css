@@ -1,0 +1,53 @@
+.desc {
+   background: rgba(0, 0, 0, 0.582);
+   border-radius: 25px;
+   display: flex;
+   flex-direction: column;
+   width: 70vw;
+}
+.carousel {
+   width: 100%;
+}
+@media (min-width: 320px) {
+   .desc {
+      font-size: 14px;
+   }
+   .desc h5 {
+      color: gold;
+      font-size: 20px;
+   }
+   .desc p {
+      font-size: 13px;
+      font-weight: 700;
+   }
+   .carousel {
+      height: 350px;
+   }
+}
+@media (min-width: 768px) {
+   .desc {
+      height: 120px;
+   }
+   .desc h5 {
+      color: gold;
+      font-size: 35px;
+      font-weight: 700;
+   }
+   .desc p {
+      font-size: 18px;
+   }
+   .carousel {
+      height: 500px;
+   }
+}
+@media (min-width: 1000px) {
+   .carousel {
+      height: 770px;
+   }
+}
+@media (min-width: 1400px) {
+   .carousel {
+      display: flex;
+      height: 850px;
+   }
+}
