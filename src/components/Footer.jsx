@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <div className='footer'>
-      <h6>Contato:</h6>
+      <h6>Contato</h6>
         <div className='icons'>
           <FaWhatsapp />
           <FaInstagram />

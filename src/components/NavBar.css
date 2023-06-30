@@ -3,12 +3,23 @@
    font-family: 'Open Sans', sans-serif;
    justify-content: space-between;
 }
+.nav_content {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
 .title_nav {
    align-items: center;
    color: gold;
    font-size: 28px;
    display: flex;
    font-weight: 900;
+}
+.subtitle_nav {
+   color: rgb(168, 0, 0);
+   font-family: 'Orbitron', sans-serif;
+   font-size: 12px;
+   font-weight: bold;
 }
 .NavBar a {
    display: flex;
@@ -39,27 +50,17 @@
 
 
 @media (min-width: 992px) {
-   .NavBar span {
-      font-size: 35px;
-   }
    .NavBar img {
       margin-right: 3rem;
       width: 90px;
    }
-   .NavBar a {
-      padding-left: 3rem;
-      margin: 0 auto;
+   .title_nav {
+      font-size: 35px;
    }
-}
-@media (min-width: 993px){
-   .NavBar span {
-      font-size: 28px;
-   }
-   .NavBar img {
-      width: 65px;
+   .subtitle_nav {
+      font-size: 13px;
    }
    .NavBar a {
-      font-size: 16px;
       padding-left: 3rem;
       margin: 0 auto;
    }

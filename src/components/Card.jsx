@@ -1,8 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import carOne from '../img/car_sld01.jpg'
 
-function CardExample({imgCard,titleCard, firstText, seccondText, details}) {
+function CardExample({imgCard, titleCard, firstText, seccondText, details}) {
   return (
     <>
         <Card style={{width:"230px",  marginBottom:"2rem" }}>

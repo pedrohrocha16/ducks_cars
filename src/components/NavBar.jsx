@@ -11,7 +11,10 @@ function NavBar() {
     <Navbar expand="lg" className='NavBar'>
       <Container>
           <img src={Logo} alt="logo" />
-          <span className='title_nav'>Duck's Car</span>
+          <div className='nav_content'>
+            <span className='title_nav'>Duck's Car</span>
+            <span className='subtitle_nav'>Premium Cars</span>
+          </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{textAlign:"center",fontSize:"13px" ,width:"50px",height:"40px"}}/>
         <Navbar.Collapse id="basic-navbar-nav" style={{width:"70px",height:"50px"}} >
           <Nav className="me-auto">

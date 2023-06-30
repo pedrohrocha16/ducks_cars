@@ -3,7 +3,7 @@ import './ErrorPage.css'
 const ErrorPage = () => {
   return (
     <div>
-      <h1>Error page</h1>
+      <h1>Ocorreu um erro! Por favor, atualize a página!</h1>
     </div>
   )
 }
