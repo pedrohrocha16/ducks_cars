@@ -23,7 +23,7 @@
       font-weight: 700;
    }
    .carousel {
-      height: 350px;
+      height: 310px;
    }
 }
 @media (min-width: 768px) {
@@ -39,21 +39,16 @@
       font-size: 18px;
    }
    .carousel {
-      height: 500px;
+      height: 510px;
    }
 }
 @media (min-width: 1000px) {
    .carousel {
-      height: 770px;
+      height: 710px;
    }
 }
 @media (min-width: 1400px) {
    .carousel {
-      display: flex;
-      height: 850px;
-   }
-   .desc {
-      position: relative;
-      top: -5rem;
+      height: 90vh;
    }
 }

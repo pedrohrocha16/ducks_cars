@@ -20,7 +20,15 @@
    margin-right: 2rem;
    margin-top: 1rem;
    margin-bottom: 2rem;
-   text-align: left;
+}
+.veiculos_estoque {
+   align-items: center;
+   background: #222;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
 }
 .home_estoque {
    align-items: center;
@@ -56,10 +64,45 @@
    margin-top: 2rem;
 }
 
+
+
+@media (min-width: 500px){
+   .veiculos_estoque {
+      display: grid;
+      grid-template-columns: 250px 250px;
+      justify-items: center;
+   }
+   .depoiment_card {
+      display: grid;
+      grid-template-columns: 250px 250px;
+      justify-items: center;
+   }
+}
+@media (min-width: 900px){
+   .veiculos_estoque {
+      display: grid;
+      grid-template-columns: 250px 250px 250px;
+      justify-items: center;
+   }
+}
 @media (min-width: 1400px) {
    .main p {
       margin-left: 12rem;
       margin-right: 12rem;
       text-align: center;
+   }
+   .veiculos_estoque {
+      display: grid;
+      grid-template-columns: 250px 250px 250px 250px;
+      justify-items: center;
+   }
+   .depoiment_card {
+      display: grid;
+      grid-template-columns: 250px 250px;
+      justify-items: center;
+   }
+   .depoiment_card img {
+      height: 170px;
+      width: 200px;
    }
 }
