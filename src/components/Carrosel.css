@@ -2,6 +2,7 @@
    background: rgba(0, 0, 0, 0.582);
    border-radius: 25px;
    display: flex;
+   font-family: 'Open Sans', sans-serif;
    flex-direction: column;
    width: 70vw;
 }

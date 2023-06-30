@@ -15,3 +15,6 @@ const Cars = () => {
 }
 
 export default Cars
+
+
+//props do card: fotoVeic 'src', marcaModelo, novoSemiNovo
